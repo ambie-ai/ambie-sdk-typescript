@@ -1,0 +1,55 @@
+{
+  "name": "@ambie/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for AMBIE — speech-to-text, translation, TTS, embeddings, sentiment, summarization, moderation, and language detection.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ambie",
+    "speech-to-text",
+    "transcription",
+    "asr",
+    "translation",
+    "tts",
+    "embeddings",
+    "sentiment",
+    "summarization",
+    "moderation"
+  ],
+  "author": "AMBIE",
+  "license": "MIT",
+  "homepage": "https://ambie.ai/sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambie-ai/ambie-sdk-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ambie-ai/ambie-sdk-typescript/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^3.2.4",
+    "@types/node": "^20.11.0"
+  }
+}
