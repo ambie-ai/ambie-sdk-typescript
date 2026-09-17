@@ -1,8 +1,11 @@
 
 # Operator go-helper artifacts (siteops/docs/GO-HELPER-CONVENTION.md)
 /go
+/ok
 /go.sh
+/ok.sh
 /go.log
+/ok.log
 
 # >>> macos-ios-metadata (managed: edit siteops/shared/gitignore/macos-ios.gitignore, then run siteops/scripts/gitignore-sync.py)
 # macOS and iOS metadata. Appears whenever files arrive from a Mac, an iPhone,
